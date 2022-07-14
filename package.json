@@ -1,29 +1,31 @@
 {
-  "name": "online-json-diff",
-  "version": "1.0.0",
-  "description": "Online JSON Diff finder",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/serve/bin/serve.js -p 8080 ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/justspamjustin/online-json-diff.git"
-  },
-  "keywords": [
-    "online",
-    "json",
-    "diff",
-    "tool"
-  ],
-  "author": "Justin Martin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/justspamjustin/online-json-diff/issues"
-  },
-  "homepage": "https://github.com/justspamjustin/online-json-diff#readme",
-  "devDependencies": {
-    "serve": "^11.3.2"
-  }
+    "name": "online-json-diff",
+    "version": "1.0.0",
+    "description": "Online JSON Diff finder",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "./node_modules/serve/bin/serve.js -p 8080 ./ui",
+        "tauri": "tauri"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/justspamjustin/online-json-diff.git"
+    },
+    "keywords": [
+        "online",
+        "json",
+        "diff",
+        "tool"
+    ],
+    "author": "Justin Martin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/justspamjustin/online-json-diff/issues"
+    },
+    "homepage": "https://github.com/justspamjustin/online-json-diff#readme",
+    "devDependencies": {
+        "@tauri-apps/cli": "^1.0.3",
+        "serve": "^11.3.2"
+    }
 }
